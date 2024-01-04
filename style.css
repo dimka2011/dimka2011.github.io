@@ -25,3 +25,5 @@ transition: 1s}
 .navig{text-align: center;}
 .glav{font-weight: bold;}
 .pr{font-style: italic;}
+.mems{max-width: 400px;
+width: fit-content;}
