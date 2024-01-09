@@ -25,7 +25,8 @@ transition: 1s}
 .navig{text-align: center;}
 .glav{font-weight: bold;}
 .pr{font-style: italic;}
-.mems{max-width: 400px;}
+.mems{max-width: 400px;
+    width: 90vw}
 .memcon{text-align: center;}
 .footer {
  background-color: #aac5fa;
@@ -33,8 +34,11 @@ transition: 1s}
    right:0;
   bottom:0;
   width:100%;
-  height: 90px;}
+  height: 15vmin;}
 .socset{text-decoration: none;
 margin-inline: 5px;
-font-size: 20px;
+font-size: 17px;
+margin-top: 10px;
+font-size: 4vmin;
+margin-top: 3px;
 }
