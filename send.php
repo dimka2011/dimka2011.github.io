@@ -1,22 +1,17 @@
 <?php
-$name = $_POST['name'];
+$fio = $_POST['fio'];
 $email = $_POST['email'];
-$text = $_POST['text'];
-$name = htmlspecialchars($name);
+$fio = htmlspecialchars($fio);
 $email = htmlspecialchars($email);
-$text = htmlspecialchars($text);
-$name = urldecode($name);
+$fio = urldecode($fio);
 $email = urldecode($email);
-$text = urldecode($text);
-$name = trim($name);
+$fio = trim($fio);
 $email = trim($email);
-$text = trim($text);
-//echo $name;
+//echo $fio;
 //echo "<br>";
 //echo $email;
-if (mail("roditel.dfv@mail.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email ,"Анекдот:".$text"From: info@dimka2011.github.io \r\n"))
+if (mail("example@mail.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: example2@mail.ru \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";
-
 }?>
