@@ -1,21 +1,18 @@
-body{background-image: url(img/backgroundimg1.jfif);
+body{background-color: #FFE5CC;
 background-size: 100%;
 }
-.header{border: 1px solid black;
+.header{border: solid black;
 text-align: center;
-background-color: white;
+background-color: solid rgb(246, 210, 176);
 background-size: cover;}
 .text{border: solid black;
 padding: 5px;
-background-color: white;
 text-align: center}
 .texta{border: solid black;
 padding: 5px;
-background-color: white;
 text-align: left;}
 .textx{border: solid black;
   padding: 5px;
-  background-color: white;
   text-align: left;
   margin-bottom: 150px}
 .nav{border: solid black;
@@ -29,7 +26,9 @@ display: inline-flex;
 .nav:hover{transform: scale(1.2);
 transition: 1s}
 .navig{text-align: center;}
-.glav{font-weight: bold;}
+.glav{font-weight: bold;
+border-top: solid gray;
+border-top-style: dotted;}
 .pr{font-style: italic;}
 .mems{max-width: 400px;
     width: 90vw}
@@ -49,3 +48,5 @@ font-size: 4vmin;
 margin-top: 4px;
 
 }
+.anek{border: solid gray;
+  border-style: dotted;}
