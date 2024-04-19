@@ -14,7 +14,9 @@ text-align: left;}
 .textx{border: solid black;
   padding: 5px;
   text-align: left;
-  margin-bottom: 150px}
+  margin-bottom: 150px;
+  width: 65%;
+  float: left;}
 .nav{border: solid black;
 padding: 10px;
 margin: 10px;
@@ -30,9 +32,9 @@ transition: 1s}
 border-top: solid gray;
 border-top-style: dotted;}
 .pr{font-style: italic;}
-.mems{max-width: 400px;
-    width: 90vw}
-.memcon{text-align: center;}
+.mems{max-width: 55%;
+    width: 50vmin}
+
 .footer {
  background-color: #aac5fa;
   position:fixed;
@@ -48,5 +50,11 @@ font-size: 4vmin;
 margin-top: 4px;
 
 }
-.anek{border: solid gray;
-  border-style: dotted;}
+.anek{border-bottom: solid gray;
+  border-bottom-style: dotted;}
+.ads{float: right;
+width: 30%}
+.wrapper{display: flex;}
+.memcon{text-align: center;
+  width: 70%;
+  float: left;}
