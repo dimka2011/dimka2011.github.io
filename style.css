@@ -4,19 +4,24 @@ background-size: 100%;
 .header{border: solid black;
 text-align: center;
 background-color: solid rgb(246, 210, 176);
-background-size: cover;}
+background-size: cover;
+margin-left: 0,5%}
 .text{border: solid black;
 padding: 5px;
-text-align: center}
+text-align: center;
+margin-left: 0,5%
+}
 .texta{border: solid black;
 padding: 5px;
-text-align: left;}
+text-align: left;
+margin-left: 0,5%}
 .textx{border: solid black;
   padding: 5px;
   text-align: left;
   margin-bottom: 150px;
   width: 65%;
-  float: left;}
+  float: left;
+  margin-left: 0,5%}
 .nav{border: solid black;
 padding: 10px;
 margin: 10px;
@@ -37,18 +42,17 @@ border-top-style: dotted;}
 
 .footer {
  background-color: #aac5fa;
-  position:fixed;
-   right:0;
+  position: fixed;
+  left:0;
   bottom:0;
-  width:100%;
+  width:66%;
   height: 17vmin;}
 .socset{text-decoration: none;
 margin-inline: 5px;
 font-size: 7vmax;
 margin-top: 10px;
 font-size: 4vmin;
-margin-top: 4px;
-
+margin-top: 3px;
 }
 .anek{border-bottom: solid gray;
   border-bottom-style: dotted;}
